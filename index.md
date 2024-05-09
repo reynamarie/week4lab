@@ -122,7 +122,7 @@ Choice of command : `grep`
 `grep -c`
 ![Image](thegrep.jpg)
 
--This  command finds the frequency of the patterns and or words in a a file by printing the count of lines that match.
+- This  command finds the frequency of the patterns and or words in a a file by printing the count of lines that match.
 
 
 
@@ -140,7 +140,7 @@ Choice of command : `grep`
 
 `grep -n`
 ![Image](alqaeda.jpg)
--This  command searches for specific pattern and then prints the matching line number. It is useful for locating contents in a file. 
+- This  command searches for specific pattern and then prints the matching line number. It is useful for locating contents in a file. 
 
 
 `grep -l`
@@ -154,6 +154,6 @@ Source for obtaining `grep` commands: geeksforgeeks.org
 
 - Title Page: grep command in Unix/Linux
  
--[
+- [
 Link:
 ](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)]   
