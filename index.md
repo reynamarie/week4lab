@@ -122,7 +122,7 @@ Choice of command : `grep`
 `grep -c`
 ![Image](thegrep.jpg)
 
--This `grep` command finds the frequency of the patterns and or words in a a file by printing the count of lines that match.
+-This  command finds the frequency of the patterns and or words in a a file by printing the count of lines that match.
 
 
 
@@ -134,23 +134,23 @@ Choice of command : `grep`
 ![Image](yasqueen.jpg)
 ![Image](yasqueen2.jpg)
 
-- This `grep` command is used to displayed the matched lines in a file. It is useful for focusing on the content in a file. 
+- This command is used to displayed the matched lines in a file. It is useful for focusing on the content in a file. 
 
 
 
 `grep -n`
 ![Image](alqaeda.jpg)
--This `grep` command searches for specific pattern and then prints the matching line number. It is useful for locating contents in a file. 
+-This  command searches for specific pattern and then prints the matching line number. It is useful for locating contents in a file. 
 
 
 `grep -l`
 ![Image](sunshine.jpg)
-- This `grep` command prints thefilenames which contains the given contents. It is useful for locating which files contain such patternsand or content. 
+- This command prints thefilenames which contains the given contents. It is useful for locating which files contain such patternsand or content. 
   
 
 
 
-Source for all `grep` commands: geeksforgeeks.org
+Source for obtaining `grep` commands: geeksforgeeks.org
  Title Page: grep command in Unix/Linux
 [
 Link:
