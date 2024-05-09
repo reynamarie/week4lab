@@ -120,13 +120,32 @@ This fix adresses the issue because it correctly reverses the array in place, wh
 Choice of command : `grep` 
 
 `grep -c`
-thegrep.jpg
+![Image](thegrep.jpg)
+
 -This `grep` command finds the frequency of the patterns and or words in a a file by printing the count of lines that match.
 
+
+
+
+
+
 `grep -h` 
-yasqueen.jpg
-yasqueen2.jpg
-- The `grep -h` command is used to suppress the prefixing of filenames on output when multiple files are searched.
+
+![Image](yasqueen.jpg)
+![Image](yasqueen2.jpg)
+
+- This `grep` command is used to displayed the matched lines in a file. It is useful for focusing on the content in a file. 
+
+
+
+`grep -n`
+![Image](alqaeda.jpg)
+-This `grep` command searches for specific pattern and then prints the matching line number. It is useful for locating contents in a file. 
+
+
+`grep -l`
+![Image](sunshine.jpg)
+- This `grep` command prints thefilenames which contains the given contents. It is useful for locating which files contain such patternsand or content. 
   
 
 
@@ -135,4 +154,4 @@ Source for all `grep` commands: geeksforgeeks.org
  Title Page: grep command in Unix/Linux
 [
 Link:
-](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)   
+](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)]   
