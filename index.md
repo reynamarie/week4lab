@@ -3,7 +3,7 @@
 
 
 
-1. Failure-inducing: JUNIT Test and Original Associated Code
+ 1. Failure-inducing: JUNIT Test and Original Associated Code
    
 ~~~
    public class ArrayExamples {
@@ -23,7 +23,7 @@
    }
 ~~~
 
-2.
+ 2.
 Not failure-inducing JUNIT Test and Original Associated Code
 
 
@@ -68,7 +68,7 @@ Not failure-inducing JUNIT Test and Original Associated Code
 
 
 
-4. Before-and-after code change required to fix it
+ 4. Before-and-after code change required to fix it
  Before
 
 ```
@@ -100,7 +100,7 @@ After
 Screenshot proving the bug was fixed for reference 
 ![Image](correcttestsweek4.jpg)
 
-5. Why the fix addresses the issue?
+ 5. Why the fix addresses the issue?
 This fix adresses the issue because it correctly reverses the array in place, which is the purpose of the method. It correctly implements the `reverseInPlace` method by swapping each element with its corresponding element from the end of the array.
 
 
