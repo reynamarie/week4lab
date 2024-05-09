@@ -8,6 +8,7 @@
 1. Failure-inducing: JUNIT Test and Original Associated Code
    
 ```
+{
 
 public class ArrayExamples {
     static void reverseInPlace(int[] arr) {
