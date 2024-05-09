@@ -49,10 +49,25 @@ public void testReversed() {
 
 ```
 
-
-
-
 3. ![Image](testsweek4.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -60,11 +75,13 @@ public void testReversed() {
 
    Before
 ```
-
     public class ArrayExamples {
       static void reverseInPlace(int[] arr) {
         for(int i = 0; i < arr.length; i += 1) {
           arr[i] = arr[arr.length - i - 1];
+        }
+    }
+}
 
 ```
 
@@ -72,13 +89,15 @@ public void testReversed() {
 
 After
 ```
-
          public class ArrayExamples {
             public static void reverseInPlace(int[] array) {
                 for (int i = 0; i < array.length / 2; i++) {
-                int temp = array[i];
-                array[i] = array[array.length - 1 - i];
-                array[array.length - 1 - i] = temp;
+                    int temp = array[i];
+                    array[i] = array[array.length - 1 - i];
+                    array[array.length - 1 - i] = temp;
+                }
+            }
+    }
 
 ```
 
@@ -98,5 +117,22 @@ This fix adresses the issue because it correctly reverses the array in place, wh
 
 
 ## Part 2- Researching Commands 
+Choice of command : `grep` 
 
-   
+`grep -c`
+thegrep.jpg
+-This `grep` command finds the frequency of the patterns and or words in a a file by printing the count of lines that match.
+
+`grep -h` 
+yasqueen.jpg
+yasqueen2.jpg
+- The `grep -h` command is used to suppress the prefixing of filenames on output when multiple files are searched.
+  
+
+
+
+Source for all `grep` commands: geeksforgeeks.org
+ Title Page: grep command in Unix/Linux
+[
+Link:
+](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)   
