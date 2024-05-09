@@ -6,14 +6,12 @@
 1. Failure-inducing: JUNIT Test and Original Associated Code
    
 ```
-{
-
 public class ArrayExamples {
     static void reverseInPlace(int[] arr) {
         for(int i = 0; i < arr.length; i += 1) {
             arr[i] = arr[arr.length - i - 1];
-        }
-    }
+      }
+   }
 }
 
 // JUnit Test
@@ -73,19 +71,21 @@ Not failure-inducing JUNIT Test and Original Associated Code
 4. Before-and-after code change required to fix it
  Before
 
-```{
+```
+
     public class ArrayExamples {
       static void reverseInPlace(int[] arr) {
         for(int i = 0; i < arr.length; i += 1) {
           arr[i] = arr[arr.length - i - 1];
         }
     }
-}```
+}
+```
 
 
 
 After
-```{
+```
          public class ArrayExamples {
             public static void reverseInPlace(int[] array) {
                 for (int i = 0; i < array.length / 2; i++) {
@@ -95,7 +95,7 @@ After
                 }
             }
     }
-}```
+```
 
 Screenshot proving the bug was fixed for reference 
 ![Image](correcttestsweek4.jpg)
