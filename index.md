@@ -151,7 +151,9 @@ Choice of command : `grep`
 
 
 Source for obtaining `grep` commands: geeksforgeeks.org
- Title Page: grep command in Unix/Linux
-[
+
+- Title Page: grep command in Unix/Linux
+ 
+-[
 Link:
 ](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)]   
