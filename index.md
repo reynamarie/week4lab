@@ -28,4 +28,4 @@ public void testReversed() {
 ```
 
 3.
-
+![Image](testsweek4.jpg)
