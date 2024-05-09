@@ -5,23 +5,23 @@
 
 1. Failure-inducing: JUNIT Test and Original Associated Code
    
-```
-public class ArrayExamples {
-    static void reverseInPlace(int[] arr) {
-        for(int i = 0; i < arr.length; i += 1) {
-            arr[i] = arr[arr.length - i - 1];
+~~~
+   public class ArrayExamples {
+       static void reverseInPlace(int[] arr) {
+           for(int i = 0; i < arr.length; i += 1) {
+               arr[i] = arr[arr.length - i - 1];
+         }
       }
    }
-}
 
-// JUnit Test
-@Test 
-public void testReverseInPlace() {
-    int[] input1 = { 1, 2, 3 };
-    ArrayExamples.reverseInPlace(input1);
-    Assert.assertArrayEquals(new int[]{ 3, 2, 1 }, input1);
-}
-```
+   // JUnit Test
+   @Test 
+   public void testReverseInPlace() {
+       int[] input1 = { 1, 2, 3 };
+       ArrayExamples.reverseInPlace(input1);
+       Assert.assertArrayEquals(new int[]{ 3, 2, 1 }, input1);
+   }
+~~~
 
 2.
 Not failure-inducing JUNIT Test and Original Associated Code
