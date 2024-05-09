@@ -6,6 +6,7 @@
 
 
 1. Failure-inducing: JUNIT Test and Original Associated Code
+   
 ```
 
 public class ArrayExamples {
@@ -23,30 +24,29 @@ public void testReverseInPlace() {
     ArrayExamples.reverseInPlace(input1);
     Assert.assertArrayEquals(new int[]{ 3, 2, 1 }, input1);
 }
-
 ```
 
 2.
 Not failure-inducing JUNIT Test and Original Associated Code
+
+
 ```
-
-public class ArrayExamples {
-    public static int[] reversed(int[] array) {
-        int[] reversedArray = new int[array.length];
-        for(int i = 0; i < array.length; i++) {
-            reversedArray[i] = array[array.length - i - 1];
+        public class ArrayExamples {
+            public static int[] reversed(int[] array) {
+                int[] reversedArray = new int[array.length];
+                for(int i = 0; i < array.length; i++) {
+                    reversedArray[i] = array[array.length - i - 1];
+                }
+                return reversedArray;
+            }
         }
-        return reversedArray;
-    }
-}
 
-// JUnit Test
-@Test
-public void testReversed() {
-    int[] input = {1, 2, 3};
-    Assert.assertArrayEquals(new int[]{3, 2, 1}, ArrayExamples.reversed(input));
-}
-
+        // JUnit Test
+        @Test
+        public void testReversed() {
+            int[] input = {1, 2, 3};
+            Assert.assertArrayEquals(new int[]{3, 2, 1}, ArrayExamples.reversed(input));
+        }
 ```
 
 3. ![Image](testsweek4.jpg)
