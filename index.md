@@ -58,22 +58,11 @@ public class ArrayTests {
 This code runs the two tests, one of them fails and one of them passes. The one that fails is the testReverseInPlace. The test that passes is the testReverseInPlace2. It passes because there is only one element in the array, so there aren't any numbers to incorrectly sort by. 
 
 
-
-
-
-
-
-
-
-
-
-
-
 4.
 Before-and-after code changes are required to fix it, by correctly swapping
  Before
 
-```
+~~~
 
     public class ArrayExamples {
       static void reverseInPlace(int[] arr) {
@@ -82,7 +71,7 @@ Before-and-after code changes are required to fix it, by correctly swapping
         }
     }
 }
-```
+~~~
 
 
 
