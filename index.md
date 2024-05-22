@@ -48,7 +48,7 @@ public class ArrayTests {
 
 
 3.
-![Image](testsweek4update.jpg)
+![Image](onefailonepass.jpg)
 
 
 
@@ -68,7 +68,7 @@ This code runs the two tests, one of them fails and one of them passes. The one 
 
 
 
-
+4.
 Before-and-after code change required to fix it
  Before
 
