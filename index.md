@@ -55,7 +55,7 @@ public class ArrayTests {
 
 
 
-This code runs the two tests, one of them fails and one of them passes. The one that fails is the testReverseInPlace. The test that passes is the testReverseInPlace2. It passes because there is only one element in the array, so there aren't any numbers to incorrectly sort by. 
+This code runs the two tests, one of them fails and one of them passes. The one that fails is the `testReverseInPlace`. The test that passes is the `testReverseInPlace2`. It passes because there is only one element in the array, so there aren't any numbers to incorrectly sort by. 
 
 
 4.
