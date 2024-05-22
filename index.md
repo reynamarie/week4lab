@@ -25,7 +25,7 @@
 
 
 
-2. Not failure-inducing JUNIT Test and Original Associated Code
+2. Non failure-inducing JUNIT Test and Original Associated Code
 
 ~~~
 public class ArrayTests {
@@ -47,7 +47,7 @@ public class ArrayTests {
 ~~~
 
 
-
+3.
 ![Image](testsweek4update.jpg)
 
 
