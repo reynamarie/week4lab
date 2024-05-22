@@ -122,13 +122,13 @@ Choice of command: `grep`
 ![Image](yasqueen.jpg)
 ![Image](yasqueen2.jpg)
 
-- This command is used to displayed the matched lines in a file. It is useful for focusing on the content in a file. 
+- This command is used to display the matched lines in a file. It is useful for focusing on the content in a file. 
 
 
 
 `grep -n`
 ![Image](alqaeda.jpg)
-- This  command searches for specific pattern and then prints the matching line number. It is useful for locating contents in a file. 
+- This  command searches for a specific pattern and then prints the matching line number. It is useful for locating contents in a file. 
 
 
 `grep -l`
