@@ -27,7 +27,7 @@
 
 2. Non failure-inducing JUNIT Test and Original Associated Code.
 
-These tests are both on failure-inducing JUNIT Test. At this point in the steps, the `reverseInPlace` method in ArrayExamples is producing one of the tests to fail and one of these tests to pass.
+These tests are both on failure-inducing JUNIT Test. At this point in the steps, the `reverseInPlace` method in `ArrayExamples` is producing one of the tests to fail and one of these tests to pass.
 ~~~
 public class ArrayTests {
   @Test
