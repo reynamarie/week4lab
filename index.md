@@ -28,24 +28,6 @@ Failure-inducing: JUNIT Test and Original Associated Code
 Not failure-inducing JUNIT Test and Original Associated Code
 
 
-```
-        public class ArrayExamples {
-            public static int[] reversed(int[] array) {
-                int[] reversedArray = new int[array.length];
-                for(int i = 0; i < array.length; i++) {
-                    reversedArray[i] = array[array.length - i - 1];
-                }
-                return reversedArray;
-            }
-        }
-
-        // JUnit Test
-        @Test
-        public void testReversed() {
-            int[] input = {1, 2, 3};
-            Assert.assertArrayEquals(new int[]{3, 2, 1}, ArrayExamples.reversed(input));
-        }
-```
 
 
 ![Image](testsweek4.jpg)
