@@ -76,7 +76,7 @@ Before-and-after code changes are required to fix it, by correctly swapping
 
 
 After
-```
+~~~
          public class ArrayExamples {
             public static void reverseInPlace(int[] array) {
                 for (int i = 0; i < array.length / 2; i++) {
@@ -86,7 +86,7 @@ After
                 }
             }
     }
-```
+~~~
 
 
 
@@ -105,7 +105,7 @@ The issue with the code that caused the fail-inducing test was that it was swapp
 
 
 ## Part 2- Researching Commands 
-Choice of command : `grep` 
+Choice of command: `grep` 
 
 `grep -c`
 ![Image](thegrep.jpg)
