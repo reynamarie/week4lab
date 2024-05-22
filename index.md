@@ -3,7 +3,7 @@
 
 
 
-Failure-inducing: JUNIT Test and Original Associated Code
+1. Failure-inducing: JUNIT Test and Original Associated Code
    
 ~~~
    public class ArrayExamples {
@@ -25,19 +25,36 @@ Failure-inducing: JUNIT Test and Original Associated Code
 
 
 
-Not failure-inducing JUNIT Test and Original Associated Code
+2. Not failure-inducing JUNIT Test and Original Associated Code
+
+~~~
+public class ArrayTests {
+  @Test
+	public void testReverseInPlace() {
+    int[] input1 = { 1, 2, 3};
+    ArrayExamples.reverseInPlace(input1);
+    Assert.assertArrayEquals(new int[]{ 3, 2, 1 }, input1);
+
+	}
+
+  @Test
+	public void testReverseInPlace2() {
+    int[] input1 = { 1};
+    ArrayExamples.reverseInPlace(input1);
+    Assert.assertArrayEquals(new int[]{ 1 }, input1);
+
+	}
+~~~
+
+
+
+![Image](testsweek4update.jpg)
 
 
 
 
-![Image](testsweek4.jpg)
 
-
-
-
-
-
-
+This code runs the two tests, one of them fails and one of them passes. The one that fails is the testReverseInPlace. The test that passes is the testReverseInPlace2. It passes because there is only one element in the array, so there aren't any numbers to incorrectly sort by. 
 
 
 
@@ -86,8 +103,8 @@ Screenshot proving the bug was fixed for reference
 
 
 
-Why the fix addresses the issue?
-This fix adresses the issue because it correctly reverses the array in place, which is the purpose of the method. It correctly implements the `reverseInPlace` method by swapping each element with its corresponding element from the end of the array.
+5. Why the fix addresses the issue?
+This fix addresses the issue because it correctly reverses the array in place, which is the purpose of the method. It correctly implements the `reverseInPlace` method by swapping each element with its corresponding element from the end of the array.
 
 
 
@@ -104,7 +121,7 @@ Choice of command : `grep`
 `grep -c`
 ![Image](thegrep.jpg)
 
-- This  command finds the frequency of the patterns and or words in a a file by printing the count of lines that match.
+- This  command finds the frequency of the patterns and or words in a file by printing the count of lines that match.
 
 
 
@@ -127,7 +144,7 @@ Choice of command : `grep`
 
 `grep -l`
 ![Image](sunshine.jpg)
-- This command prints thefilenames which contains the given contents. It is useful for locating which files contain such patternsand or content. 
+- This command prints the filenames which contain the given contents. It is useful for locating which files contain such patterns and or content. 
   
 
 
