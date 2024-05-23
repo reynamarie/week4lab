@@ -25,7 +25,8 @@
 
 
 
-2. Non failure-inducing JUNIT Test and Original Associated Code.
+ 
+ 2. Non failure-inducing JUNIT Test and Original Associated Code.
 
 These tests are both on failure-inducing JUNIT Test. At this point in the steps, the `reverseInPlace` method in `ArrayExamples` is producing one of the tests to fail and one of these tests to pass.
 ~~~
@@ -92,7 +93,7 @@ After
 
 
 
-5. Why the fix addresses the issue?
+5.Why the fix addresses the issue?
 The issue with the code that caused the fail-inducing test was that it was swapping the element in the array with the entire array. In other words, it was undoing the swapping that it was doing, causing the array to remain the same. The after code addresses the issue because it correctly reverses the array in place, which is the purpose of the method. It correctly implements the `reverseInPlace` method by swapping each element with its corresponding element from the end of the array. 
 
 
