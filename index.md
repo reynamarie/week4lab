@@ -133,7 +133,7 @@ Choice of command: `grep`
 `grep -l`
 ![Image](sunshine.jpg)
 - The `grep -l` command prints the filenames which contain the given contents. It is useful for locating which files contain such patterns and or content. It is especially useful if you aren't sure which file it may be located in, allowing for a more encompassing search. 
-The `grep -l 'Time ran out.' *` is searching through all the files for the location of 'Time ran out.', and lets the user know that it is in `chapter-8.txt`. The `grep -1 'your.' *` is searching through all the files for the location of 'your.', and lets the user know that it is in the files; `chapter-1.txt`, `chapter-12.txt`,  `chapter-13.2.txt`, `chapter-13.5.txt`, `chapter-2.txt`, `chapter-6.txt`, and `chapter-7.txt`.
+The `grep -l 'Time ran out.' *` is searching through all the files for the location of 'Time ran out.', and lets the user know that it is in `chapter-8.txt`. The `grep -l 'your.' *` is searching through all the files for the location of 'your.', and lets the user know that it is in the files; `chapter-1.txt`, `chapter-12.txt`,  `chapter-13.2.txt`, `chapter-13.5.txt`, `chapter-2.txt`, `chapter-6.txt`, and `chapter-7.txt`.
 
 Source for obtaining `grep` commands: geeksforgeeks.org
 
