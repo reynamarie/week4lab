@@ -111,7 +111,7 @@ Choice of command: `grep`
 `grep -c`
 ![Image](thegrep.jpg)
 
-- This  command is useful for finding the frequency of the patterns and or words in a file and then printing the count of lines that match. The `grep -c 'the' ./technical/911report/chapter-1.txt` command searches for the frequency of the word, the, in the `chapter-1.txt` file, showing that the word is used in the files 313 times. The `grep -c 'the' ./technical/911report/chapter-2.txt` command searches for the frequency of the word, the, in the `chapter-1.txt` file, showing that the word is used in the files 526 times. 
+- The `grep -c` command is useful for finding the frequency of the patterns and or words in a file and then printing the count of lines that match. The `grep -c 'the' ./technical/911report/chapter-1.txt` command searches for the frequency of the word, the, in the `chapter-1.txt` file, showing that the word is used in the files 313 times. The `grep -c 'the' ./technical/911report/chapter-2.txt` command searches for the frequency of the word, the, in the `chapter-1.txt` file, showing that the word is used in the files 526 times. 
 
 
 
@@ -122,21 +122,17 @@ Choice of command: `grep`
 ![Image](yasqueen.jpg)
 ![Image](yasqueen2.jpg)
 
-- This command is used to display the matched lines in a file. It is useful for focusing on the content in a file and 
+- The `grep -h`  command is used to display the matched string in a file. It is useful for focusing on the content in a file and checking its contents. The `grep -h 'COUNTERTERRORISM EVOLVES' chapter-3. txt` command searches for the string 'COUNTERTERRORISM EVOLVES' in the chapter-3.txt file. Since it is in the file, it returns the string. The `grep -h '"WE HAVE SOME PLANES"' ./technical/911report/chapter-1. txt` command searches for the string "WE HAVE SOME PLANES" in the chapter-1.txt file. Since it is in the file, it returns the string.
 
-
-
+  
 `grep -n`
 ![Image](alqaeda.jpg)
-- This  command searches for a specific pattern and then prints the matching line number. It is useful for locating contents in a file. 
-
+- The `grep -n` command searches for a specific pattern and then prints the corresponding line number. It is useful for locating contents in a file. The command `grep -n 'Time ran out.' chapter-8. txt` searches for where the string 'Time ran out' is located in the `chapter-5.txt` file. It prints 1034 because that is the line where 'Time ran out' is located. The command `grep -n 'AL QAEDA AIMS AT THE AMERICAN HOMELAND' chapter-5.txt` searches for where the string 'AL QAEDA AIMS AT THE AMERICAN HOMELAND' is located in the `chapter-5.txt`. It prints 4 because that is the line where 'AL QAEDA AIMS AT THE AMERICAN HOMELAND' is located.
 
 `grep -l`
 ![Image](sunshine.jpg)
-- This command prints the filenames which contain the given contents. It is useful for locating which files contain such patterns and or content. 
-  
-
-
+- The `grep -l` command prints the filenames which contain the given contents. It is useful for locating which files contain such patterns and or content. It is especially useful if you aren't sure which file it may be located in, allowing for a more encompassing search. 
+The `grep -l 'Time ran out.' *` is searching through all the files for the location of 'Time ran out.', and lets the user know that it is in `chapter-8.txt`. The `grep -1 'your.' *` is searching through all the files for the location of 'your.', and lets the user know that it is in the files; `chapter-1.txt`, `chapter-12.txt`,  `chapter-13.2.txt`, `chapter-13.5.txt`, `chapter-2.txt`, `chapter-6.txt`, and `chapter-7.txt`.
 
 Source for obtaining `grep` commands: geeksforgeeks.org
 
