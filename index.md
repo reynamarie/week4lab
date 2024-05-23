@@ -111,7 +111,7 @@ Choice of command: `grep`
 `grep -c`
 ![Image](thegrep.jpg)
 
-- The `grep -c` command is useful for finding the frequency of the patterns and or words in a file and then printing the count of lines that match. The `grep -c 'the' ./technical/911report/chapter-1.txt` command searches for the frequency of the word, the, in the `chapter-1.txt` file, showing that the word is used in the files 313 times. The `grep -c 'the' ./technical/911report/chapter-2.txt` command searches for the frequency of the word, the, in the `chapter-1.txt` file, showing that the word is used in the files 526 times. 
+- The `grep -c` command is useful for finding the frequency of the patterns and or words in a file and then printing the count of the lines that match. The `grep -c 'the' ./technical/911report/chapter-1.txt` command searches for the frequency of the string, 'the', in the `chapter-1.txt` file, showing that the word is used in the file 313 times. The `grep -c 'the' ./technical/911report/chapter-2.txt` command searches for the frequency of the string, 'the', in the `chapter-1.txt` file, showing that the word is used in the files 526 times. 
 
 
 
