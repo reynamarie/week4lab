@@ -6,6 +6,7 @@
 1. Failure-inducing: JUNIT Test and Original Associated Code
    
 ```
+{
    public class ArrayExamples {
        static void reverseInPlace(int[] arr) {
            for(int i = 0; i < arr.length; i += 1) {
@@ -21,6 +22,7 @@
        ArrayExamples.reverseInPlace(input1);
        Assert.assertArrayEquals(new int[]{ 3, 2, 1 }, input1);
    }
+}
 ```
 
 
@@ -30,22 +32,24 @@
 
 These tests are both on failure-inducing JUNIT Test. At this point in the steps, the `reverseInPlace` method in `ArrayExamples` is producing one of the tests to fail and one of these tests to pass.
 ```
-public class ArrayTests {
-  @Test
-	public void testReverseInPlace() {
-    int[] input1 = { 1, 2, 3};
-    ArrayExamples.reverseInPlace(input1);
-    Assert.assertArrayEquals(new int[]{ 3, 2, 1 }, input1);
-
-	}
-
-  @Test
-	public void testReverseInPlace2() {
-    int[] input1 = { 1};
-    ArrayExamples.reverseInPlace(input1);
-    Assert.assertArrayEquals(new int[]{ 1 }, input1);
-
-	}
+{
+	public class ArrayTests {
+	  @Test
+		public void testReverseInPlace() {
+	    int[] input1 = { 1, 2, 3};
+	    ArrayExamples.reverseInPlace(input1);
+	    Assert.assertArrayEquals(new int[]{ 3, 2, 1 }, input1);
+	
+		}
+	
+	  @Test
+		public void testReverseInPlace2() {
+	    int[] input1 = { 1};
+	    ArrayExamples.reverseInPlace(input1);
+	    Assert.assertArrayEquals(new int[]{ 1 }, input1);
+	
+		}
+}
 ```
 
 
@@ -63,6 +67,7 @@ Before-and-after code changes are required to fix it, by correctly swapping
  Before
 
 ```
+{
 
     public class ArrayExamples {
       static void reverseInPlace(int[] arr) {
@@ -70,6 +75,7 @@ Before-and-after code changes are required to fix it, by correctly swapping
           arr[i] = arr[arr.length - i - 1];
         }
     }
+
 }
 ```
 
@@ -77,6 +83,7 @@ Before-and-after code changes are required to fix it, by correctly swapping
 
 After
 ```
+{
          public class ArrayExamples {
             public static void reverseInPlace(int[] array) {
                 for (int i = 0; i < array.length / 2; i++) {
@@ -86,6 +93,7 @@ After
                 }
             }
     }
+}
 ```
 
 
