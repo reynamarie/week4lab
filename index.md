@@ -49,8 +49,7 @@ public class ArrayTests {
 ~~~
 
 
- 3. 
-![Image](onefailonepass.jpg)
+3.![Image](onefailonepass.jpg)
 
 
 
